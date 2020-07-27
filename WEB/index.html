@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+ 
+<html>
+ <head>
+  <title> Frames em HTML </title>
+  <meta name="description" content="Framset - Como usar frames em sites HTML">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <link rel="stylesheet" type="text/css"  href="estilo.css" /> 
+ </head>
+
+    <frameset rows="20%,80%,20%">
+        <frame name="head" src="header.html" noresize="no" scrolling="no">
+        <frameset cols="25%,*">
+         <frame name="menu" src="menu.html" noresize="no"></frame>
+         <frame name="apresenta" src="apresenta.html" noresize="no"></frame>
+     </frameset>
+        <frame name="foot" src="foot.html" noresize="no">
+    </frameset>
+
+</html>
